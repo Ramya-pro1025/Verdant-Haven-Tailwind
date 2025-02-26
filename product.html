@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Verdant Haven</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Back Home Button -->
+    <nav class="bg-blue-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">VERDANT HAVEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 md:hidden" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor ">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+
+        <ul class="hidden md:flex gap-5 text-gray-600">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- Our Products -->
+    <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+
+        <!-- Search Bar -->
+        <div class="flex justify-center items-center mt-5">
+            <input type="text" placeholder="Search products..." 
+                class="border border-gray-400 p-1 m-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 px-2 py-2" style="width:70%">
+            <button class="bg-black text-white px-5 py-2 font-semibold hover:bg-blue-900 transition cursor-pointer">
+                Search
+            </button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-7">
+            <!-- Product 1 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Produuct Image_1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Living Green Walls">
+                <h2 class="text-xl font-medium mt-2">Living Green Walls</h2>
+                <p class="text-gray-700">$199.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Moss Art Panels">
+                <h2 class="text-xl font-medium mt-2">Moss Art Panels</h2>
+                <p class="text-gray-700">$129.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Smart Planter Systems">
+                <h2 class="text-xl font-medium mt-2">Smart Planter</h2>
+                <p class="text-gray-700">$249.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px"" alt="Organic Texture Wallpapers">
+                <h2 class="text-xl font-medium mt-2">Organic Wallpapers</h2>
+                <p class="text-gray-700">$89.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_5.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Sustainable Wooden Furniture">
+                <h2 class="text-xl font-medium mt-2">Sustainable Furniture</h2>
+                <p class="text-gray-700">$499.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_6.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Nature-Inspired Lighting">
+                <h2 class="text-xl font-medium mt-2">Nature-Inspired Lighting</h2>
+                <p class="text-gray-700">$159.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_7.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Biophilic Room Dividers">
+                <h2 class="text-xl font-medium mt-2">Green Dividers</h2>
+                <p class="text-gray-700">$299.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="border p-3 text-center">
+                <img src="./images/Product Image_8.png" class="inline hover:shadow-xl transform hover:-translate-y-2" width="250px" height="200px" alt="Aromatherapy Diffuser Stones">
+                <h2 class="text-xl font-medium mt-2">Aroma Stones</h2>
+                <p class="text-gray-700">$39.99</p>
+                <button class="bg-black text-white px-4 py-2 mt-2 w-full cursor-pointer  hover:text-green-300">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-200 p-10 flex flex-col gap-5 mt-5">
+        <h1 class="text-3xl font-bold">Stay Rooted with VERDANT HAVEN</h1>
+        <p>Thanks for stopping by! We bring nature-inspired designs to elevate your space.</p>
+        <p>grow@VerdantHaven.com</p>
+
+    </section>
+</body>
+
+</html>
+
